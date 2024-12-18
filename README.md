@@ -1,13 +1,22 @@
-# GitHub Web App
+# Task Manager App
 
-This is a responsive single-page web application created using HTML, CSS, and JavaScript. It's designed for deployment on GitHub Pages.
+This is a simple and elegant **Task Manager Application** built with HTML, CSS, and JavaScript. It allows users to add, complete, and delete tasks efficiently.
 
 ## Features
 
-- Single Page Navigation (SPA)
-- Responsive Design
-- Dynamic Content Rendering
-- Contact Form Validation
-- Easily Extendable
+- Add tasks dynamically
+- Mark tasks as completed
+- Delete tasks
+- Responsive design for all devices
 
-## File Structure
+## Technologies Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES6)
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/task-manager.git
