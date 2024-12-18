@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section active">
+      <h1>Welcome to Our Web App</h1>
+      <p>This is the home page of our responsive web application.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h1>About Us</h1>
+      <p>We are developers creating modern, responsive web applications.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <h1>Our Services</h1>
+      <ul id="services-list">
+        <!-- Dynamically Populated -->
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h1>Contact Us</h1>
+      <form id="contact-form">
+        <label>
+          Name:
+          <input type="text" id="name" required>
+        </label><br>
+        <label>
+          Email:
+          <input type="email" id="email" required>
+        </label><br>
+        <label>
+          Message:
+          <textarea id="message" required></textarea>
+        </label><br>
+        <button type="submit">Send</button>
+      </form>
+      <div id="response-message"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Web Application. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
