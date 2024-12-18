@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Application</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home" id="nav-home" class="active">Home</a>
+      <a href="#about" id="nav-about">About</a>
+      <a href="#contact" id="nav-contact">Contact</a>
+    </nav>
+  </header>
+  <main id="app">
+    <section id="home" class="page">
+      <h1>Welcome to Our Web App</h1>
+      <p>This is the home page. Navigate to different sections using the links above.</p>
+    </section>
+    <section id="about" class="page hidden">
+      <h1>About Us</h1>
+      <p>This is a simple web app demonstration using JavaScript.</p>
+    </section>
+    <section id="contact" class="page hidden">
+      <h1>Contact Us</h1>
+      <form id="contact-form">
+        <label>
+          Name: <input type="text" id="name" required>
+        </label><br>
+        <label>
+          Email: <input type="email" id="email" required>
+        </label><br>
+        <label>
+          Message: <textarea id="message" required></textarea>
+        </label><br>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="form-response" class="hidden"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
