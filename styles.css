@@ -1,0 +1,91 @@
+/* Global Styles */
+body, h1, p, ul, li, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.header {
+  background: #343a40;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+/* Form */
+form {
+  margin-top: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #343a40;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
