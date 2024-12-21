@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Browser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="browser-container">
+        <div class="address-bar">
+            <button id="backButton" class="nav-button">Back</button>
+            <button id="forwardButton" class="nav-button">Forward</button>
+            <input type="text" id="urlInput" class="url-input" placeholder="Enter URL here..." />
+            <button id="loadButton" class="load-button">Go</button>
+        </div>
+        <div class="browser-display">
+            <iframe id="webPage" src="" title="Web Page"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
